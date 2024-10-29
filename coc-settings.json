@@ -1,5 +1,11 @@
 {
  "diagnostics.checkCurrentLine": true
  "diagnostic.virtualText": true,
- "diagnostic.virtualTextCurrentLineOnly": false
+ "diagnostic.virtualTextCurrentLineOnly": false,
+ "languageserver": {
+    "typst": {
+        "command": "typst-lsp",
+        "filetypes": ["typst"]
+        }
+    }
 }
